@@ -10,9 +10,11 @@
       rel="stylesheet"
     /> -->
   </head>
-  <body>
-    <header class="flex justify-between items-center my-4 mx-16 flex-wrap">
-      <nav class="flex items-center space-x-3">
+  <body class="font-brandfamily">
+    <header
+      class="relative flex items-center justify-between px-4 my-4 lg:px-16"
+    >
+      <nav class="items-center hidden space-x-3 lg:flex">
         <img src="./assets/microsoft-logo.png" class="w-20 md:w-28" />
 
         <ul class="flex space-x-3 text-sm">
@@ -26,8 +28,212 @@
           <li><a href="/" class="hover:underline">Support</a></li>
         </ul>
       </nav>
-      <div class="flex space-x-3">
-        <button class="text-sm">All Microsoft</button>
+      <div class="hidden space-x-3 lg:flex">
+        <details class="px-2 mb-4 group">
+          <summary
+            class="list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-pink-500 rounded group-open:rounded-b-none group-open:z-[1] group-open:bg-gray-300 relative"
+          >
+            <button class="flex items-center justify-between text-sm" open>
+              <p class="">All Microsoft</p>
+            </button>
+            <div class="flex items-center justify-center w-4">
+              <div
+                class="ml-2 transition-transform origin-left border-8 border-transparent border-l-gray-600 group-open:rotate-90"
+              >
+                <svg
+                  class="w-4 h-4 text-gray-700 transition-transform duration-500 rotate-0 group-open:rotate-90"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </summary>
+          <div class="absolute inset-x-0 z-10 p-4 bg-gray-200 top-14">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+              <div class="">
+                <h5 class="text-lg font-bold">Software</h5>
+                <ul class="flex flex-col space-y-4 text-xs">
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                </ul>
+              </div>
+              <div class="">
+                <h5 class="text-lg font-bold">Pcs & Devices</h5>
+                <ul class="flex flex-col space-y-4 text-xs">
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                  <li>
+                    <a href="/" class="hover:underline">Surface Laptop Go 2</a>
+                  </li>
+                  <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
+                </ul>
+              </div>
+              <div class="">
+                <h5 class="text-lg font-bold">Entertainment</h5>
+                <ul class="flex flex-col space-y-4 text-xs">
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Xbox Game Pass Ultimate
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> PC Game Pass </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Xbox games</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> PC games</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Windows digital games</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Movies & TV</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="">
+                <h5 class="text-lg font-bold">Business</h5>
+                <ul class="flex flex-col space-y-4 text-xs">
+                  <li>
+                    <a href="/" class="hover:underline"> Microsoft Cloud</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Microsoft Security</a>
+                  </li>
+                  <li><a href="/" class="hover:underline"> Dynamics 365</a></li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Microsoft 365 for business</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Microsoft 365 for business</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Microsoft Power Platform</a
+                    >
+                  </li>
+                  <li><a href="/" class="hover:underline"> Windows 365</a></li>
+                  <li>
+                    <a href="/" class="hover:underline"> Microsoft Industry</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Small Business</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="">
+                <h5 class="text-lg font-bold">Developer & IT</h5>
+                <ul class="flex flex-col space-y-4 text-xs">
+                  <li>
+                    <a href="/" class="hover:underline"> Azure</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Developer Center</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Documentation</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Microsoft Learn</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Microsoft Tech Community</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Azure Marketplace</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> AppSource</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Visual Studio</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="">
+                <h5 class="text-lg font-bold">Other</h5>
+                <ul class="flex flex-col space-y-4 text-xs">
+                  <li>
+                    <a href="/" class="hover:underline">Microsoft Rewards </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Free downloads & security
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Education </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Virtual workshops and training
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Gift cards </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Students and parents deals</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline"> Licensing</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">
+                      Microsoft Experience Center</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </details>
+
         <svg
           class="w-6 h-6"
           fill="none"
@@ -74,31 +280,103 @@
           </g>
         </svg>
       </div>
+      <div class="flex space-x-3 lg:hidden">
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          ></path>
+        </svg>
+      </div>
+      <div class="lg:hidden">
+        <img src="./assets/microsoft-logo.png" class="w-20 md:w-28" />
+      </div>
+      <div class="flex space-x-3 lg:hidden">
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+          ></path>
+        </svg>
+        <svg
+          class="w-6 h-6"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          stroke="#707070"
+        >
+          <g class="mectrl_stroke" stroke-width="1.9" fill="none">
+            <circle cx="32" cy="32" r="30.25" />
+            <g transform="matrix(1.1 0 0 1.1 8.8 5.61)">
+              <circle class="mectrl_stroke" cx="20" cy="16" r="7" />
+              <path
+                class="mectrl_stroke"
+                d="M30 35h10m-5-5v10M30.833 32.09A11 11 0 009 34"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
     </header>
-    <section>
-      <div class="bg-blue-800 text-center py-4">
-        <h5 class="text-white font-bold">
+    <section class="">
+      <div class="py-4 text-center bg-newblue">
+        <h5 class="font-bold text-white">
           Students, parents, and educators: Take up to 10% off* select tech,
           including select Surface. Shop now
         </h5>
       </div>
+
       <div
-        class="grid grid-cols-1 md:grid-cols-2 items-center justify-self-center p-10 bg-gray-100"
+        class="grid items-center grid-cols-1 bg-white carousel-item lg:bg-lightgray lg:grid-cols-2 justify-self-center"
       >
-        <img
-          class="cover w-100"
-          src="./assets//Highlight-Hero-Surface-Family-Platinum-Windows-11_VP1-539x440.jpeg"
-        />
-        <div class="mx-16 space-y-6">
-          <h5 class="font-bold text-xl">Save on Surface</h5>
+        <div class="">
+          <img
+            class="object-cover object-center w-full h-full lg:w-auto lg:h-auto"
+            src="./assets/Highlight-Surf-Bundles-Laptop-Go-2-Ice-Blue-Mouse-Complete_VP3-1083x600.avif"
+          />
+        </div>
+
+        <div
+          class="p-10 mx-6 -mt-12 space-y-6 bg-white border shadow lg:mt-0 lg:border-0 lg:shadow-none lg:bg-lightgray lg:mx-16"
+        >
+          <h5 class="text-xl font-bold">Save on Surface</h5>
           <p class="text-sm">
             Find a great deal on select Surface devices built for all the ways
             you create, work, play, and connect. If you have questions before
             you buy a Surface, book a free shopping appointment.
           </p>
-          <div class="md:flex space-y-4 lg:space-y-0 lg:space-x-6 text-base">
+          <div class="space-y-4 text-base md:flex lg:space-y-0 lg:space-x-6">
             <button class="btn-primary">Shop surface deals</button
-            ><button class="btn-secondary font-bold">
+            ><button class="font-bold btn-secondary">
               <p class="text-base">Book an appointment</p>
               <svg
                 class="w-5 h-5"
@@ -119,49 +397,56 @@
         </div>
       </div>
     </section>
-    <section class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 p-10">
-      <div>
+
+    <section class="flex flex-wrap justify-center p-5 lg:p-10">
+      <div class="flex flex-col items-center m-10 space-y-4">
         <img src="./assets/gldn-Quick-Link-Icon-80x80-Microsoft-365.jpeg" />
-        <a href="/" class="text-blue-700 underline text-xs"
+        <a href="/" class="text-base font-bold underline text-newblue"
           >Choose your Microsoft 365</a
         >
       </div>
-      <div>
+      <div class="flex flex-col items-center m-10 space-y-4">
         <img src="./assets/icon-LL-surface-kickstand-120x120.jpeg" />
-        <a href="/" class="text-blue-700 underline text-xs"
+        <a href="/" class="text-base font-bold underline text-newblue"
           >Shop Surface devices</a
         >
       </div>
-      <div>
+      <div class="flex flex-col items-center m-10 space-y-4">
         <img src="./assets/gldn-ICON-LL-xbox-logo-120x120.jpeg" />
-        <a href="/" class="text-blue-700 underline text-xs"
+        <a href="/" class="text-base font-bold underline text-newblue"
           >Buy Xbox games and consoles</a
         >
       </div>
-      <div>
+      <div class="flex flex-col items-center m-10 space-y-4">
         <img src="./assets/Book_Icon_40x40.jpeg" />
-        <a href="" class="text-blue-700 underline text-xs">Shop for students</a>
+        <a href="" class="text-base font-bold underline text-newblue"
+          >Shop for students</a
+        >
       </div>
-      <div>
+      <div class="flex flex-col items-center m-10 space-y-4">
         <img src="./assets/QuickLink-Laptop-40x40.jpeg" />
-        <a href="/" class="text-blue-700 underline text-xs"
+        <a href="/" class="text-base font-bold underline text-newblue"
           >Find your next PC</a
         >
       </div>
-      <div>
+      <div class="flex flex-col items-center m-10 space-y-4">
         <img src="./assets/gldn-ICON-LL-briefcase-120x120.jpeg" />
-        <a href="" class="text-blue-700 underline text-xs">Shop Business</a>
+        <a href="" class="text-base font-bold underline text-newblue"
+          >Shop Business</a
+        >
       </div>
     </section>
-    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-10">
+    <section
+      class="grid grid-cols-1 gap-4 p-4 lg:p-10 sm:grid-cols-2 md:grid-cols-4"
+    >
       <div class="space-y-3">
-        <div class="p-6">
+        <div class="">
           <img
             class="object-cover"
             src="./assets/CP-02-Pro8-Platinum-BnrCntrl.jpeg"
           />
         </div>
-        <h5 class="font-bold text-xl">
+        <h5 class="text-xl font-bold">
           Surface Pro 8 (i5) + Surface Pro Keyboard
         </h5>
         <p class="text-sm">
@@ -188,18 +473,18 @@
         </button>
       </div>
       <div class="space-y-3">
-        <div class="p-6">
+        <div class="">
           <img
             class="object-cover"
             src="./assets/Content-Card-Surface-Go-3-Type-Cover-Ice-Blue-Angle.jpeg"
           />
         </div>
-        <h5 class="font-bold text-xl">Select Surface Go 3, up to $70 off</h5>
+        <h5 class="text-xl font-bold">Select Surface Go 3, up to $70 off</h5>
         <p class="text-sm">
           Optimized for student needs—note-taking, sketching, Windows 11, and
           more. Starting at $479.99.
         </p>
-        <button class="flex items-center text-blue-700 hover:underline">
+        <button class="flex items-center text-newblue hover:underline">
           <p class="text-base">Shop Surface Go 3</p>
           <svg
             class="w-5 h-5"
@@ -218,18 +503,18 @@
         </button>
       </div>
       <div class="space-y-3">
-        <div class="p-6">
+        <div class="">
           <img
             class="object-cover"
             src="./assets/Content-Card-NBA-2K23-KeyArt.jpeg"
           />
         </div>
-        <h5 class="font-bold text-xl">NBA 2K23</h5>
+        <h5 class="text-xl font-bold">NBA 2K23</h5>
         <p class="text-sm">
           Rise to the occasion and realize your full potential in NBA 2K23. How
           will you Answer The Call?
         </p>
-        <button class="flex items-center text-blue-700 hover:underline">
+        <button class="flex items-center text-newblue hover:underline">
           <p class="text-base">Shop NBA 2K23 now</p>
           <svg
             class="w-5 h-5"
@@ -248,17 +533,17 @@
         </button>
       </div>
       <div class="space-y-3">
-        <div class="p-6">
+        <div class="">
           <img
             class="object-cover"
             src="./assets/Content-Card-Xbox-Elite-Controller-Series-2-Core-White.jpeg"
           />
         </div>
-        <h5 class="font-bold text-xl">Play like a pro</h5>
+        <h5 class="text-xl font-bold">Play like a pro</h5>
         <p class="text-sm">
           Experience the Xbox Elite Wireless Controller Series 2–Core in white.
         </p>
-        <button class="flex items-center text-blue-700 hover:underline">
+        <button class="flex items-center text-newblue hover:underline">
           <p class="text-base">Pre-order controller now</p>
           <svg
             class="w-5 h-5"
@@ -278,38 +563,40 @@
       </div>
     </section>
     <section
-      class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-100 p-10 m-10 items-center justify-self-center"
+      class="grid items-center grid-cols-1 gap-4 p-4 m-10 bg-gray-100 lg:p-10 md:grid-cols-2 justify-self-center"
     >
-      <div class="m-10 py-20">
+      <div class="py-20 m-10">
         <h3 class="text-xl font-bold">Save up to $500 on select PCs</h3>
         <p class="text-sm">
           Discover great deals on powerful devices to help you study smarter and
           relax after class
         </p>
         <button
-          class="text-base text-white bg-blue-800 hover:bg-blue-900 px-3 py-1.5"
+          class="text-base text-white bg-newblue hover:bg-blue-900 px-3 py-1.5"
         >
           Shop PC deals
         </button>
       </div>
-      <img
-        src="./assets/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-HighlightHero_VP5-1596x600.jpeg"
-        class="object-cover"
-      />
+      <div>
+        <img
+          src="./assets/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-HighlightHero_VP1-539x440.jpg"
+          class="object-cover object-center"
+        />
+      </div>
     </section>
-    <section class="p-10">
-      <h5 class="font-bold text-xl">For business</h5>
+    <section class="p-4 lg:p-10">
+      <h5 class="text-xl font-bold">For business</h5>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+        class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
       >
         <div class="space-y-3">
-          <div class="p-6">
+          <div class="">
             <img
               class="object-cover"
               src="./assets/Surface-Pro8-Business-04-CP.jpeg"
             />
           </div>
-          <h5 class="font-bold text-xl">
+          <h5 class="text-xl font-bold">
             Surface Pro 8 (i5) + Surface Pro Keyboard
           </h5>
           <p class="text-sm">
@@ -317,7 +604,7 @@
             screen. Available with Windows 11. Questions? Book an online
             consultation.
           </p>
-          <button class="flex items-center text-blue-700 hover:underline">
+          <button class="flex items-center text-newblue hover:underline">
             <p class="text-base">Shop now</p>
             <svg
               class="w-5 h-5"
@@ -334,7 +621,7 @@
               ></path>
             </svg>
           </button>
-          <button class="flex items-center text-blue-700 hover:underline">
+          <button class="flex items-center text-newblue hover:underline">
             <p class="text-base">Book a consultation</p>
             <svg
               class="w-5 h-5"
@@ -353,17 +640,17 @@
           </button>
         </div>
         <div class="space-y-3">
-          <div class="p-6">
+          <div class="">
             <img
               class="object-cover"
               src="./assets/gldn-CP-Microsoft-Teams-Commercial.jpeg"
             />
           </div>
-          <h5 class="font-bold text-xl">Get Microsoft Teams for free</h5>
+          <h5 class="text-xl font-bold">Get Microsoft Teams for free</h5>
           <p class="text-sm">
             Online meetings, chat, and shared cloud storage—all in one place.
           </p>
-          <button class="flex items-center text-blue-700 hover:underline">
+          <button class="flex items-center text-newblue hover:underline">
             <p class="text-base">Sign up for free</p>
             <svg
               class="w-5 h-5"
@@ -382,17 +669,17 @@
           </button>
         </div>
         <div class="space-y-3">
-          <div class="p-6">
+          <div class="">
             <img class="object-cover" src="./assets/JIC-DPS-CP01.jpeg" />
           </div>
-          <h5 class="font-bold text-xl">
+          <h5 class="text-xl font-bold">
             Welcome to your Windows 365 Cloud PC
           </h5>
           <p class="text-sm">
             Securely stream your Windows experience from the Microsoft cloud to
             any device.
           </p>
-          <button class="flex items-center text-blue-700 hover:underline">
+          <button class="flex items-center text-newblue hover:underline">
             <p class="text-base">Shop NBA 2K23 now</p>
             <svg
               class="w-5 h-5"
@@ -411,18 +698,18 @@
           </button>
         </div>
         <div class="space-y-3">
-          <div class="p-6">
+          <div class="">
             <img
               class="object-cover"
               src="./assets/Content-Card-Brand-Hybrid-Work.jpeg"
             />
           </div>
-          <h5 class="font-bold text-xl">Thrive in a hybrid world</h5>
+          <h5 class="text-xl font-bold">Thrive in a hybrid world</h5>
           <p class="text-sm">
             Discover tools, resources, and strategies to help your employees
             succeed in the new world of flexible work.
           </p>
-          <button class="flex items-center text-blue-700 hover:underline">
+          <button class="flex items-center text-newblue hover:underline">
             <p class="text-base">Learn more</p>
             <svg
               class="w-5 h-5"
@@ -444,26 +731,29 @@
     </section>
 
     <section
-      class="relative grid grid-cols-1 md:grid-cols-2 gap-4 p-10 md:p-20 m-10 items-center justify-self-center my-10 md:my-32"
+      class="relative grid items-center grid-cols-1 gap-4 lg:mx-10 lg:p-10 lg:grid-cols-2 justify-self-center lg:my-32"
     >
-      <div class="relative z-10 text-white py-20 space-y-6">
+      <div
+        class="relative z-10 order-last px-4 py-20 -mt-10 space-y-6 text-gray-900 bg-white shadow md:mx-4 lg:text-white lg:mt-0 lg:mx-0"
+      >
         <h3 class="text-xl font-bold">Save up to $500 on select PCs</h3>
         <p class="text-sm">
           Discover great deals on powerful devices to help you study smarter and
           relax after class
         </p>
         <button
-          class="text-base text-white bg-blue-800 hover:bg-blue-900 px-3 py-1.5"
+          class="text-base text-white bg-newblue hover:bg-blue-900 px-3 py-1.5"
         >
           Shop PC deals
         </button>
       </div>
-      <div></div>
+
       <img
         src="./assets/Highlight-Slim-Multi-Canvas-AEM-Unlocked-ADLaM_VP5-1920x600.jpeg"
-        class="absolute object-cover"
+        class="object-cover lg:absolute lg:inset-0 h-96"
       />
-      <!-- <div class="relative z-10 py-20 space-y-6 bg-white m-10">
+
+      <!-- <div class="relative z-10 py-20 m-10 space-y-6 bg-white">
         <h3 class="text-xl font-bold">
           Coco Gauff and New Balance ace the collab game
         </h3>
@@ -472,22 +762,25 @@
           designing her '90s-inspired Coco CG1 shoe
         </p>
         <button
-          class="text-base text-white bg-blue-800 hover:bg-blue-900 px-3 py-1.5"
+          class="text-base text-white bg-newblue hover:bg-blue-900 px-3 py-1.5"
         >
           Learn about Coco’s signature design
         </button>
       </div>
-      <div></div>
-      <img
-        src="./assets/Highlight-Coco-Gauff-New-Balance-Surface_VP5-1920x600 (1).jpeg"
-        class="absolute object-cover"
-      /> -->
+      <div>
+        <img
+          src="./assets/Highlight-Coco-Gauff-New-Balance-Surface_VP5-1920x600 (1).jpeg"
+          class="absolute object-cover"
+        />
+      </div> -->
     </section>
-    <footer class="relative bg-gray-100 p-10 space-y-5 mt-20">
-      <div class="grid gap-4 grid-cols-1 sm:grid-cols-3 lg:grid-cols-6">
-        <div class="">
-          <h5 class="font-bold text-lg">What's new</h5>
-          <ul class="flex flex-col space-y-2 text-xs">
+    <footer
+      class="relative p-4 pt-10 pb-2 mt-20 space-y-10 bg-lightgray lg:p-10"
+    >
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+        <div class="space-y-6">
+          <h5 class="text-lg font-bold">What's new</h5>
+          <ul class="flex flex-col space-y-4 text-xs">
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
@@ -498,9 +791,9 @@
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
           </ul>
         </div>
-        <div class="">
-          <h5 class="font-bold text-lg">Microsoft Store</h5>
-          <ul class="flex flex-col space-y-2 text-xs">
+        <div class="space-y-6">
+          <h5 class="text-lg font-bold">Microsoft Store</h5>
+          <ul class="flex flex-col space-y-4 text-xs">
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
@@ -511,9 +804,9 @@
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
           </ul>
         </div>
-        <div class="">
-          <h5 class="font-bold text-lg">Education</h5>
-          <ul class="flex flex-col space-y-2 text-xs">
+        <div class="space-y-6">
+          <h5 class="text-lg font-bold">Education</h5>
+          <ul class="flex flex-col space-y-4 text-xs">
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
@@ -524,9 +817,9 @@
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
           </ul>
         </div>
-        <div class="">
-          <h5 class="font-bold text-lg">Business</h5>
-          <ul class="flex flex-col space-y-2 text-xs">
+        <div class="space-y-6">
+          <h5 class="text-lg font-bold">Business</h5>
+          <ul class="flex flex-col space-y-4 text-xs">
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
@@ -537,9 +830,9 @@
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
           </ul>
         </div>
-        <div class="">
-          <h5 class="font-bold text-lg">Developer & IT</h5>
-          <ul class="flex flex-col space-y-2 text-xs">
+        <div class="space-y-6">
+          <h5 class="text-lg font-bold">Developer & IT</h5>
+          <ul class="flex flex-col space-y-4 text-xs">
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
@@ -550,9 +843,9 @@
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
           </ul>
         </div>
-        <div class="">
-          <h5 class="font-bold text-lg">Company</h5>
-          <ul class="flex flex-col space-y-2 text-xs">
+        <div class="space-y-6">
+          <h5 class="text-lg font-bold">Company</h5>
+          <ul class="flex flex-col space-y-4 text-xs">
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
             <li><a href="/" class="hover:underline">Surface Pro 8</a></li>
             <li><a href="/" class="hover:underline">Surface Laptop Go 2</a></li>
@@ -564,7 +857,9 @@
           </ul>
         </div>
       </div>
-      <div class="flex justify-between">
+      <div
+        class="flex flex-col justify-between space-y-4 lg:flex-row lg:space-y-0"
+      >
         <div class="flex space-x-2">
           <svg
             class="w-6 h-6"
@@ -582,15 +877,15 @@
           </svg>
           <p class="text-sm">English United States</p>
         </div>
-        <ul class="flex space-x-4 text-xs">
-          <li><a href="/">Sitemap </a></li>
-          <li><a href="/"> Contact Microsoft </a></li>
-          <li><a href="/"> Privacy </a></li>
-          <li><a href="/"> Terms of use </a></li>
-          <li><a href="/"> Trademarks </a></li>
-          <li><a href="/"> Safety & eco </a></li>
-          <li><a href="/">About our ads </a></li>
-          <li><a href="/">© Microsoft 2022</a></li>
+        <ul class="flex flex-wrap justify-start text-xs md:space-x-4">
+          <li class="mr-4 md:mr-0"><a href="/">Sitemap </a></li>
+          <li class="mr-4 md:mr-0"><a href="/"> Contact Microsoft </a></li>
+          <li class="mr-4 md:mr-0"><a href="/"> Privacy </a></li>
+          <li class="mr-4 md:mr-0"><a href="/"> Terms of use </a></li>
+          <li class="mr-4 md:mr-0"><a href="/"> Trademarks </a></li>
+          <li class="mr-4 md:mr-0"><a href="/"> Safety & eco </a></li>
+          <li class="mr-4 md:mr-0"><a href="/">About our ads </a></li>
+          <li class="mr-4 md:mr-0"><a href="/">© Microsoft 2022</a></li>
         </ul>
       </div>
     </footer>

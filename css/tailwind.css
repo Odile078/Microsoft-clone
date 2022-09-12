@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 @layer components{
+    .carousel-item{
+        height: 654px,
+        
+    }
+    @media (min-width: 1024px){
+        .carousel-item{
+                height: 500px;      
+        }
+    }
     .btn-primary{
         @apply text-base text-white bg-blue-800 hover:bg-blue-900 px-3 py-1.5
     }
